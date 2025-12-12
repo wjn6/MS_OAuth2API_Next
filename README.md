@@ -50,8 +50,8 @@
   - `client_id` (必填): 客户端 ID。
   - `email` (必填): 邮箱地址。
   - `mailbox` (必填): 邮箱文件夹，支持的值为 `INBOX` 或 `Junk`。
-  - `socks5` (可选): socks5 代理地址，格式为 `socks5://127.0.0.1:7890`。
-  - `http` (可选): http 代理地址，格式为 `http://127.0.0.1:7890`。
+  - `socks5` (可选): socks5 代理地址，格式为 `socks5://username:password@ip:port`。
+  - `http` (可选): http 代理地址，格式为 `http://ip:port`。
 
 ### 获取全部邮件
 
@@ -63,8 +63,8 @@
   - `client_id` (必填): 客户端 ID。
   - `email` (必填): 邮箱地址。
   - `mailbox` (必填): 邮箱文件夹，支持的值为 `INBOX` 或 `Junk`。
-  - `socks5` (可选): socks5 代理地址，格式为 `socks5://127.0.0.1:7890`。
-  - `http` (可选): http 代理地址，格式为 `http://127.0.0.1:7890`。
+  - `socks5` (可选): socks5 代理地址，格式为 `socks5://username:password@ip:port`。
+  - `http` (可选): http 代理地址，格式为 `http://ip:port`。
 
 ### 清空收件箱
 
@@ -76,8 +76,8 @@
   - `client_id` (必填): 客户端 ID。
   - `email` (必填): 邮箱地址。
   - `mailbox` (必填): 邮箱文件夹，支持的值为 `INBOX` 或 `Junk`。
-  - `socks5` (可选): socks5 代理地址，格式为 `socks5://127.0.0.1:7890`。
-  - `http` (可选): http 代理地址，格式为 `http://127.0.0.1:7890`。
+  - `socks5` (可选): socks5 代理地址，格式为 `socks5://username:password@ip:port`。
+  - `http` (可选): http 代理地址，格式为 `http://ip:port`。
 
 ### 代理测试
 
@@ -89,5 +89,5 @@
   - `client_id` (必填): `任意字符串即可`。
   - `email` (必填): `任意字符串即可`。
   - `mailbox` (必填): `任意字符串即可`。
-  - `socks5` (可选): socks5 代理地址，格式为 `socks5://127.0.0.1:7890`。
-  - `http` (可选): http 代理地址，格式为 `http://127.0.0.1:7890`。
+  - `socks5` (可选): socks5 代理地址，格式为 `socks5://username:password@ip:port`。
+  - `http` (可选): http 代理地址，格式为 `http://ip:port`。
